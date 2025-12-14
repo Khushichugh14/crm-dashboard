@@ -1,3 +1,8 @@
+import React from "react";
+import { THEME } from "../theme";
+
+type Theme = typeof THEME;
+
 type HeaderProps = {
   query: string;
   setQuery: (v: string) => void;

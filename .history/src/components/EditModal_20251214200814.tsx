@@ -1,4 +1,3 @@
-import { useState } from "react";
 import type { Employee } from "../types/employee";
 type Theme = unknown;
 

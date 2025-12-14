@@ -1,3 +1,5 @@
+import React from "react";
+
 type HeaderProps = {
   query: string;
   setQuery: (v: string) => void;

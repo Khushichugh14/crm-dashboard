@@ -1,9 +1,14 @@
+import { THEME } from "../theme";
+
+type Theme = typeof THEME;
+
 type HeaderProps = {
   query: string;
   setQuery: (v: string) => void;
+  theme: Theme;
 };
 
-export default function Header({ query, setQuery,}: HeaderProps) {
+export default function Header({ query, setQuery,  }: HeaderProps) {
   return (
     <header className="flex items-center justify-between mb-6">
       <div>
