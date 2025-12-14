@@ -54,7 +54,7 @@ export default function Dashboard(): JSX.Element {
     });
   }, [employees, query]);
 
-  function onEdit(e: unknown) {
+  function onEdit(e: any) {
     console.log("edit", e);
   }
 

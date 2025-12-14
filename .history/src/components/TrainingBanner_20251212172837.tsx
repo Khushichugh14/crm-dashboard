@@ -1,3 +1,4 @@
+
 export default function TrainingBanner() {
     return (
         <div style={{

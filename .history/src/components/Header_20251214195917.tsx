@@ -1,5 +1,5 @@
 import React from "react";
-import { THEME } from "../theme";
+import { THEME } from "./";
 
 type Theme = typeof THEME;
 

@@ -1,4 +1,4 @@
-import React from "react";
+import {  } from "module";
 export default function MiniCard({ label, value, icon }: { label: string; value: string; icon?: string; }) {
   return (
     <div

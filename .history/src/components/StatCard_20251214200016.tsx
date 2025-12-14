@@ -1,4 +1,3 @@
-import type { THEME } from "../theme";
 
 export type Theme = typeof THEME;
 

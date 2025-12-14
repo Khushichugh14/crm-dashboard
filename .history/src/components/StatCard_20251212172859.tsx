@@ -1,6 +1,5 @@
-import type { THEME } from "../theme";
-
-export type Theme = typeof THEME;
+import React from "react";
+type Theme = unknown;
 
 export default function StatCard({ title, value, subtitle, theme }: { title: string; value: string; subtitle?: string; theme: Theme; }) {
   return (

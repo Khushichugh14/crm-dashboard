@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import type { Employee } from "../types/employee";
-type Theme = unknown;
+type Theme = any;
 
 export default function EditModal({ employee, onClose, onSave }:
   { employee: Employee; onClose: () => void; onSave: (e: Employee) => void; theme?: Theme; }) {
